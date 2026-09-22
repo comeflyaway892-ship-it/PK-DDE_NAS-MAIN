@@ -1,0 +1,29 @@
+# Large or machine-local artifacts intentionally excluded from this export
+nb_models/
+data/
+datasets/
+
+# Training artifacts
+*.pt
+*.pth
+*.ckpt
+*.model
+*.log
+*.jsonl
+results/retrain/
+results/**/checkpoints/
+
+# Generated plots and image assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env

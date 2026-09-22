@@ -1,0 +1,702 @@
+{
+  "architectures": [
+    {
+      "duration_seconds": 715.3435842990875,
+      "final_uniqueness": 0.84,
+      "genotype": {
+        "normal": [
+          [
+            "skip_connect",
+            0
+          ],
+          [
+            "skip_connect",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            2
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_3x3",
+            2
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            2
+          ]
+        ],
+        "normal_concat": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "reduce": [
+          [
+            "max_pool_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            2
+          ],
+          [
+            "sep_conv_5x5",
+            0
+          ],
+          [
+            "sep_conv_3x3",
+            2
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            2
+          ]
+        ],
+        "reduce_concat": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "max_trace_accuracy": 95.06964111328125,
+      "predicted_accuracy": 95.06964111328125,
+      "prior_type": "prior_knowledge",
+      "search_seed": 0,
+      "tokens": [
+        2,
+        2,
+        1,
+        3,
+        4,
+        1,
+        3,
+        3,
+        4,
+        4,
+        3,
+        1,
+        4,
+        1,
+        3,
+        4,
+        1,
+        4,
+        3,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "duration_seconds": 795.4330048561096,
+      "final_uniqueness": 0.66,
+      "genotype": {
+        "normal": [
+          [
+            "skip_connect",
+            0
+          ],
+          [
+            "skip_connect",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            2
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            2
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            2
+          ]
+        ],
+        "normal_concat": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "reduce": [
+          [
+            "skip_connect",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            4
+          ]
+        ],
+        "reduce_concat": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "max_trace_accuracy": 95.12091064453125,
+      "predicted_accuracy": 95.12091064453125,
+      "prior_type": "prior_knowledge",
+      "search_seed": 1,
+      "tokens": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        1,
+        3,
+        4,
+        4,
+        4,
+        3,
+        2,
+        4,
+        0,
+        3,
+        4,
+        0,
+        4,
+        4,
+        6,
+        4,
+        4
+      ]
+    },
+    {
+      "genotype": {
+        "normal": [
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "skip_connect",
+            1
+          ],
+          [
+            "skip_connect",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            3
+          ],
+          [
+            "sep_conv_3x3",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            3
+          ]
+        ],
+        "normal_concat": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "reduce": [
+          [
+            "sep_conv_5x5",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "max_pool_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            0
+          ],
+          [
+            "dil_conv_3x3",
+            3
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            3
+          ]
+        ],
+        "reduce_concat": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "predicted_accuracy": 94.99980163574219,
+      "prior_type": "prior_knowledge",
+      "search_seed": 2,
+      "tokens": [
+        3,
+        2,
+        0,
+        2,
+        4,
+        2,
+        3,
+        4,
+        5,
+        3,
+        3,
+        4,
+        4,
+        0,
+        1,
+        4,
+        2,
+        4,
+        5,
+        5,
+        4,
+        3
+      ]
+    },
+    {
+      "genotype": {
+        "normal": [
+          [
+            "skip_connect",
+            0
+          ],
+          [
+            "sep_conv_3x3",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            2
+          ],
+          [
+            "skip_connect",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            2
+          ],
+          [
+            "sep_conv_3x3",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            4
+          ]
+        ],
+        "normal_concat": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "reduce": [
+          [
+            "skip_connect",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            2
+          ]
+        ],
+        "reduce_concat": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "predicted_accuracy": 95.01961517333984,
+      "prior_type": "prior_knowledge",
+      "search_seed": 3,
+      "tokens": [
+        2,
+        3,
+        1,
+        4,
+        4,
+        3,
+        2,
+        4,
+        6,
+        3,
+        3,
+        2,
+        4,
+        0,
+        3,
+        4,
+        0,
+        4,
+        4,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "duration_seconds": 269.239853143692,
+      "final_uniqueness": 0.92,
+      "genotype": {
+        "normal": [
+          [
+            "skip_connect",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            2
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_3x3",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            4
+          ]
+        ],
+        "normal_concat": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "reduce": [
+          [
+            "skip_connect",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "max_pool_3x3",
+            0
+          ],
+          [
+            "dil_conv_5x5",
+            2
+          ],
+          [
+            "sep_conv_5x5",
+            0
+          ],
+          [
+            "sep_conv_3x3",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ]
+        ],
+        "reduce_concat": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "max_trace_accuracy": 94.99982452392578,
+      "predicted_accuracy": 94.99982452392578,
+      "prior_type": "prior_knowledge",
+      "search_seed": 4,
+      "tokens": [
+        2,
+        4,
+        1,
+        4,
+        4,
+        0,
+        3,
+        3,
+        6,
+        3,
+        4,
+        2,
+        4,
+        1,
+        1,
+        6,
+        0,
+        4,
+        3,
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "duration_seconds": 356.63129925727844,
+      "final_uniqueness": 0.76,
+      "genotype": {
+        "normal": [
+          [
+            "skip_connect",
+            0
+          ],
+          [
+            "skip_connect",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            1
+          ],
+          [
+            "sep_conv_3x3",
+            2
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            2
+          ],
+          [
+            "sep_conv_3x3",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            2
+          ]
+        ],
+        "normal_concat": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "reduce": [
+          [
+            "avg_pool_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "avg_pool_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ],
+          [
+            "sep_conv_5x5",
+            0
+          ],
+          [
+            "sep_conv_3x3",
+            3
+          ],
+          [
+            "sep_conv_3x3",
+            0
+          ],
+          [
+            "sep_conv_5x5",
+            1
+          ]
+        ],
+        "reduce_concat": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "max_trace_accuracy": 95.15302276611328,
+      "predicted_accuracy": 95.15302276611328,
+      "prior_type": "prior_knowledge",
+      "search_seed": 5,
+      "tokens": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        1,
+        3,
+        4,
+        4,
+        3,
+        4,
+        0,
+        4,
+        0,
+        0,
+        4,
+        2,
+        4,
+        3,
+        0,
+        3,
+        4
+      ]
+    }
+  ],
+  "num_step": 100,
+  "population_num": 50,
+  "prior_kwargs": {
+    "dynamic_steps": 33,
+    "lumda": 1.0,
+    "shuffle_seed": 0,
+    "tau": 1.0,
+    "topk": 10
+  },
+  "prior_type": "prior_knowledge",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "surrogate_path": "/data/XieBoWen/NAS_Bench_301/nb_models/xgb_v1.0",
+  "with_noise": false
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "dataset": "imagenet",
+    "flops_convention": "2 per multiply-add; Conv2d and Linear only",
+    "inference_flops": 1258934016,
+    "inference_gflops": 1.258934016,
+    "inference_macs": 629467008,
+    "inference_mmacs": 629.467008,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "parameters": 5748640,
+    "parameters_millions": 5.74864,
+    "protocol": {
+      "auxiliary": false,
+      "init_channels": 48,
+      "layers": 14
+    },
+    "search_seed": 0,
+    "tokens": [
+      2,
+      2,
+      1,
+      3,
+      4,
+      1,
+      3,
+      3,
+      4,
+      4,
+      3,
+      1,
+      4,
+      1,
+      3,
+      4,
+      1,
+      4,
+      3,
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "dataset": "imagenet",
+    "flops_convention": "2 per multiply-add; Conv2d and Linear only",
+    "inference_flops": 1251200640,
+    "inference_gflops": 1.25120064,
+    "inference_macs": 625600320,
+    "inference_mmacs": 625.60032,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "parameters": 5699392,
+    "parameters_millions": 5.699392,
+    "protocol": {
+      "auxiliary": false,
+      "init_channels": 48,
+      "layers": 14
+    },
+    "search_seed": 2,
+    "tokens": [
+      3,
+      2,
+      0,
+      2,
+      4,
+      2,
+      3,
+      4,
+      5,
+      3,
+      3,
+      4,
+      4,
+      0,
+      1,
+      4,
+      2,
+      4,
+      5,
+      5,
+      4,
+      3
+    ]
+  }
+]
