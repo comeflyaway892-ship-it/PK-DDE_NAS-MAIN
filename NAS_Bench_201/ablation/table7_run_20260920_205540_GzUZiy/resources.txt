@@ -1,0 +1,23 @@
+	Command being timed: "/data2/XieBoWen/miniconda3/envs/diffusionnag/bin/python -u -X faulthandler /data/XieBoWen/DDE-NAG-MAIN/NAS_Bench_201/ablation/run_kernel_comparison.py --steps 15 --dynamic-steps 10 --population 20 --runs 100 --temperature 7.0 --knowledge-topk 6 --output /data/XieBoWen/DDE-NAG-MAIN/NAS_Bench_201/ablation/table7_run_20260920_205540_GzUZiy/results"
+	User time (seconds): 101.96
+	System time (seconds): 11.72
+	Percent of CPU this job got: 88%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:08.35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 26512436
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 200
+	Minor (reclaiming a frame) page faults: 6658065
+	Voluntary context switches: 1925
+	Involuntary context switches: 1666
+	Swaps: 0
+	File system inputs: 1832312
+	File system outputs: 33872
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

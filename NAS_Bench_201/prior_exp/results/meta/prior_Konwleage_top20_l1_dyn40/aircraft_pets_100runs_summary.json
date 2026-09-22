@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "aircraft",
+    "n": 100,
+    "mean": 58.98151041666666,
+    "std_sample": 1.3399019957989406,
+    "std_population": 1.3331856527740331,
+    "min": 53.71465773809524,
+    "max": 59.375,
+    "architectures_per_search": {
+      "3": 100
+    }
+  },
+  {
+    "dataset": "pets",
+    "n": 100,
+    "mean": 45.827249043782565,
+    "std_sample": 1.745362508274001,
+    "std_population": 1.73661376892953,
+    "min": 39.01991449991862,
+    "max": 47.61580912272135,
+    "architectures_per_search": {
+      "2": 100
+    }
+  }
+]

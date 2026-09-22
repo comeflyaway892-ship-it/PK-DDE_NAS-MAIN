@@ -1,0 +1,14 @@
+{
+  "dataset": "aircraft",
+  "steps": 30,
+  "population": 20,
+  "topk": 6,
+  "lumda": 1.0,
+  "dynamic_steps": 20,
+  "temperature": 7.0,
+  "cache_prior": "prior_Konwleage_top20_l1_dyn40",
+  "runs": 100,
+  "mean": 57.0110119047619,
+  "std_sample": 2.8307803663884186,
+  "std_population": 2.8165909017645507
+}

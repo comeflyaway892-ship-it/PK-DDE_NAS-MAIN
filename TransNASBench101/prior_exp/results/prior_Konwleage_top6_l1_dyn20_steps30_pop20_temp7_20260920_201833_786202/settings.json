@@ -1,0 +1,27 @@
+{
+  "temperature": 7.0,
+  "steps": 30,
+  "population": 20,
+  "topk": 6,
+  "dynamic_steps": 20,
+  "runs": 100,
+  "threads": 1,
+  "tasks": [
+    "class_scene",
+    "class_object",
+    "room_layout",
+    "jigsaw",
+    "segmentsemantic",
+    "normal",
+    "autoencoder"
+  ],
+  "spaces": [
+    "macro",
+    "micro"
+  ],
+  "prior_type": "prior_Konwleage",
+  "prior_strength": 1.0,
+  "seed_start": 0,
+  "total_seed_runs": 1400,
+  "metric_protocol": "Existing transnasbench101_fitness task metrics, mode=best; room_layout minimized"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "pets",
+  "steps": 30,
+  "population": 20,
+  "topk": 6,
+  "lumda": 0.99,
+  "dynamic_steps": 20,
+  "temperature": 7.0,
+  "cache_prior": "prior_Konwleage_top20_l1_dyn40",
+  "runs": 100,
+  "mean": 43.627442066192636,
+  "std_sample": 4.11790595752079,
+  "std_population": 4.097264694919693
+}

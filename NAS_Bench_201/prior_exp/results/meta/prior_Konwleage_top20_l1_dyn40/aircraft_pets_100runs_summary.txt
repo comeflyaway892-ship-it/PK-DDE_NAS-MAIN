@@ -1,0 +1,7 @@
+NASBench201 prior_Konwleage_top20_l1_dyn40
+Metric: per-search max_acc = max of per-architecture mean retraining accuracy.
+Seeds: 0..99, all complete. Accuracy unit: %.
+Primary std: sample standard deviation (ddof=1).
+
+aircraft: 58.981510 +/- 1.339902 (sample std); population std=1.333186; n=100
+pets: 45.827249 +/- 1.745363 (sample std); population std=1.736614; n=100

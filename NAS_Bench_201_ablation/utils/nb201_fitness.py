@@ -1,0 +1,74 @@
+import torch
+import time
+from utils.mapping import ReScale
+from nas_201_api import NASBench201API
+
+def load_nb201_api(path, verbose=False):
+    # 加载 NAS_Bench_201 API
+    load_api_time = time.time()
+    print('>>> Creating the API for NAS_Bench_201')
+    api = NASBench201API('./nas_201_api/NAS_Bench_201-v1_0-e61699.pth', verbose=verbose)
+    if verbose: print(f'>>> Running time of creating NAS_Bench_201 API: {time.time()-load_api_time:.2f} s')
+    return api
+
+#  这里是否合法的梳理逻辑
+def get_nb201_arch_str(operation_matrix):
+    ops = ['none', 'skip_connect', 'nor_conv_1x1', 'nor_conv_3x3', 'avg_pool_3x3']
+    arch_str = "|"  #这里有点问题  似乎不一定会有0，7  也就是可能会无效
+    switch = {
+            0: lambda: arch_str + ops[operation_matrix[i].item()] + "~0|",
+            1: lambda: arch_str + "+|" + ops[operation_matrix[i].item()] + "~0|",
+            2: lambda: arch_str + ops[operation_matrix[i].item()] + "~1|",
+            3: lambda: arch_str + "+|" + ops[operation_matrix[i].item()] + "~0|",
+            4: lambda: arch_str + ops[operation_matrix[i].item()] + "~1|",
+            5: lambda: arch_str + ops[operation_matrix[i].item()] + "~2|"
+        }
+    for i in range(6):
+        if i in switch:
+            result = switch[i]()
+            if result:
+                arch_str = result
+    return arch_str
+
+
+
+def neural_predictor(operation_matrix, api, dataset):
+    population = operation_matrix.shape[0]
+    operation_matrix = operation_matrix.view(population, 6)# (30,6)
+    acc_list = []
+    invaliad_num = 0
+    for i in range(operation_matrix.shape[0]):
+        try:
+            arch_str = get_nb201_arch_str(operation_matrix[i]) #这里能不能查到，可能非法
+            index = api.query_index_by_arch(arch_str)
+            acc = api.query_test_acc_by_index(index, dataset)
+        except Exception as e:
+            acc = 0.0
+            invaliad_num += 1
+        acc_list.append(acc)
+    org_acc = torch.tensor(acc_list)
+    valid_rate = 1.0 - float(invaliad_num) / float(operation_matrix.shape[0])
+    return org_acc, valid_rate
+
+def diversity_score(x):
+    pop = x.shape[0]
+    diversity_scores = torch.zeros(pop)
+    for i in range(pop):
+        distances = torch.norm(x - x[i], dim=1)
+        diversity_scores[i] = torch.sum(distances)
+    min_score = torch.min(diversity_scores)
+    max_score = torch.max(diversity_scores)
+    diversity_scores = (diversity_scores - min_score) / (max_score - min_score) # 归一化到[0, 1]
+    return diversity_scores
+
+def arch_fitness(operation_matrix, api, dataset):
+    assert dataset in ['cifar10', 'cifar100', 'ImageNet16-120'], f'Unsupported dataset: {dataset}'
+    org_acc, valid_rate = neural_predictor(operation_matrix, api, dataset) # 架构的准确率
+    rescale_facotr_dict = {
+        'cifar10': 1.0,
+        'cifar100': 1.2,
+        'ImageNet16-120': 2.0
+    }
+    fitness = ReScale()(org_acc * rescale_facotr_dict[dataset])
+    return org_acc, fitness, valid_rate
+

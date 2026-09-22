@@ -1,0 +1,156 @@
+[
+  {
+    "search_space": "macro",
+    "task": "class_scene",
+    "completed_seeds": 100,
+    "max_acc_mean": 57.02025287628174,
+    "max_acc_std": 0.30344969209018263,
+    "duration_mean": 0.1258144211769104,
+    "uniq_rate_mean": 0.359,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/macro/class_scene/search_log/class_scene_macro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 0.30497841557939775
+  },
+  {
+    "search_space": "macro",
+    "task": "class_object",
+    "completed_seeds": 100,
+    "max_acc_mean": 47.44904514312744,
+    "max_acc_std": 0.3967909763404367,
+    "duration_mean": 0.1252525806427002,
+    "uniq_rate_mean": 0.32049999999999995,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/macro/class_object/search_log/class_object_macro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 0.39878993597576223
+  },
+  {
+    "search_space": "macro",
+    "task": "room_layout",
+    "completed_seeds": 100,
+    "max_acc_mean": 57.96177238464355,
+    "max_acc_std": 1.4580426211027215,
+    "duration_mean": 0.11840710878372192,
+    "uniq_rate_mean": 0.19050000000000003,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/macro/room_layout/search_log/room_layout_macro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 1.4653879704678945
+  },
+  {
+    "search_space": "macro",
+    "task": "jigsaw",
+    "completed_seeds": 100,
+    "max_acc_mean": 96.95989402770996,
+    "max_acc_std": 0.07853788429709285,
+    "duration_mean": 0.1237389850616455,
+    "uniq_rate_mean": 0.6425,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/macro/jigsaw/search_log/jigsaw_macro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 0.07893354364903098
+  },
+  {
+    "search_space": "macro",
+    "task": "segmentsemantic",
+    "completed_seeds": 100,
+    "max_acc_mean": 29.326916217803955,
+    "max_acc_std": 0.1968531011377133,
+    "duration_mean": 0.12350346565246582,
+    "uniq_rate_mean": 0.20050000000000004,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/macro/segmentsemantic/search_log/segmentsemantic_macro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 0.1978448106944481
+  },
+  {
+    "search_space": "macro",
+    "task": "normal",
+    "completed_seeds": 100,
+    "max_acc_mean": 62.35859909057617,
+    "max_acc_std": 1.2418583939670804,
+    "duration_mean": 0.12215367794036865,
+    "uniq_rate_mean": 0.20150000000000007,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/macro/normal/search_log/normal_macro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 1.2481146471339883
+  },
+  {
+    "search_space": "macro",
+    "task": "autoencoder",
+    "completed_seeds": 100,
+    "max_acc_mean": 74.23031272888184,
+    "max_acc_std": 2.384685774985054,
+    "duration_mean": 0.11670881986618042,
+    "uniq_rate_mean": 0.18450000000000003,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/macro/autoencoder/search_log/autoencoder_macro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 2.3966993813707
+  },
+  {
+    "search_space": "micro",
+    "task": "class_scene",
+    "completed_seeds": 100,
+    "max_acc_mean": 54.91480934143066,
+    "max_acc_std": 0.03770614452246201,
+    "duration_mean": 0.1254007363319397,
+    "uniq_rate_mean": 0.4545,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/micro/class_scene/search_log/class_scene_micro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 0.03789610111270333
+  },
+  {
+    "search_space": "micro",
+    "task": "class_object",
+    "completed_seeds": 100,
+    "max_acc_mean": 46.11072010040283,
+    "max_acc_std": 0.1550623306941294,
+    "duration_mean": 0.12466254711151123,
+    "uniq_rate_mean": 0.25,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/micro/class_object/search_log/class_object_micro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 0.15584350606982927
+  },
+  {
+    "search_space": "micro",
+    "task": "room_layout",
+    "completed_seeds": 100,
+    "max_acc_mean": 59.70281532287598,
+    "max_acc_std": 1.8068507775829983,
+    "duration_mean": 0.11735174655914307,
+    "uniq_rate_mean": 0.0975,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/micro/room_layout/search_log/room_layout_micro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 1.815953358001425
+  },
+  {
+    "search_space": "micro",
+    "task": "jigsaw",
+    "completed_seeds": 100,
+    "max_acc_mean": 95.04886688232422,
+    "max_acc_std": 0.22173960198944268,
+    "duration_mean": 0.1245154881477356,
+    "uniq_rate_mean": 0.5295000000000001,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/micro/jigsaw/search_log/jigsaw_micro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 0.22285668513991672
+  },
+  {
+    "search_space": "micro",
+    "task": "segmentsemantic",
+    "completed_seeds": 100,
+    "max_acc_mean": 26.095678825378418,
+    "max_acc_std": 0.18130825137838277,
+    "duration_mean": 0.12464924573898316,
+    "uniq_rate_mean": 0.1325,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/micro/segmentsemantic/search_log/segmentsemantic_micro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 0.18222164885379785
+  },
+  {
+    "search_space": "micro",
+    "task": "normal",
+    "completed_seeds": 100,
+    "max_acc_mean": 58.46779724121094,
+    "max_acc_std": 0.9930124678561973,
+    "duration_mean": 0.12528251647949218,
+    "uniq_rate_mean": 0.201,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/micro/normal/search_log/normal_micro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 0.9980150812193511
+  },
+  {
+    "search_space": "micro",
+    "task": "autoencoder",
+    "completed_seeds": 100,
+    "max_acc_mean": 57.1406746673584,
+    "max_acc_std": 0.2994597090811594,
+    "duration_mean": 0.12502607107162475,
+    "uniq_rate_mean": 0.248,
+    "log_path": "/data/XieBoWen/DDE-NAG-MAIN/TransNASBench101/prior_exp/results/prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202/micro/autoencoder/search_log/autoencoder_micro_prior_Konwleage_top6_l1_dyn20_steps30_pop20_temp7_20260920_201833_786202_search.pth",
+    "max_acc_std_sample": 0.3009683317730877
+  }
+]

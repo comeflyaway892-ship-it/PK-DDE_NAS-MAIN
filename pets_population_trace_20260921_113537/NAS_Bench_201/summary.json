@@ -1,0 +1,452 @@
+[
+  {
+    "project": "NAS_Bench_201",
+    "step": 1,
+    "mean_population_accuracy": 89.9829605102539,
+    "std_population_accuracy": 1.2017420573478947,
+    "std_sample_population_accuracy": 1.2667473537453449,
+    "se_population_accuracy": 0.4005806857826315,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 2,
+    "mean_population_accuracy": 90.10708389282226,
+    "std_population_accuracy": 1.0608850728360868,
+    "std_sample_population_accuracy": 1.1182710552785537,
+    "se_population_accuracy": 0.35362835761202893,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 3,
+    "mean_population_accuracy": 90.9083854675293,
+    "std_population_accuracy": 1.32346417051239,
+    "std_sample_population_accuracy": 1.3950537268148684,
+    "se_population_accuracy": 0.44115472350412993,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 4,
+    "mean_population_accuracy": 90.82255401611329,
+    "std_population_accuracy": 1.0969470867798186,
+    "std_sample_population_accuracy": 1.1562837556368681,
+    "se_population_accuracy": 0.3656490289266061,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 5,
+    "mean_population_accuracy": 91.42274780273438,
+    "std_population_accuracy": 0.9988544059284041,
+    "std_sample_population_accuracy": 1.0528849912093834,
+    "se_population_accuracy": 0.33295146864280134,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 6,
+    "mean_population_accuracy": 91.85050201416016,
+    "std_population_accuracy": 1.1840668491491364,
+    "std_sample_population_accuracy": 1.2481160484034255,
+    "se_population_accuracy": 0.3946889497163788,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 7,
+    "mean_population_accuracy": 92.20035171508789,
+    "std_population_accuracy": 0.8553054979737986,
+    "std_sample_population_accuracy": 0.9015711562872448,
+    "se_population_accuracy": 0.2851018326579329,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 8,
+    "mean_population_accuracy": 92.96550216674805,
+    "std_population_accuracy": 0.6293397818781338,
+    "std_sample_population_accuracy": 0.6633823776294877,
+    "se_population_accuracy": 0.20977992729271125,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 9,
+    "mean_population_accuracy": 92.82832641601563,
+    "std_population_accuracy": 0.7913574158509111,
+    "std_sample_population_accuracy": 0.8341639591179714,
+    "se_population_accuracy": 0.263785805283637,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 10,
+    "mean_population_accuracy": 93.33588562011718,
+    "std_population_accuracy": 0.7012584147636652,
+    "std_sample_population_accuracy": 0.7391912730040767,
+    "se_population_accuracy": 0.23375280492122172,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 11,
+    "mean_population_accuracy": 93.3593879699707,
+    "std_population_accuracy": 0.6753947309671507,
+    "std_sample_population_accuracy": 0.7119285565109511,
+    "se_population_accuracy": 0.2251315769890502,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 12,
+    "mean_population_accuracy": 93.70269165039062,
+    "std_population_accuracy": 0.514991519539281,
+    "std_sample_population_accuracy": 0.5428487258050785,
+    "se_population_accuracy": 0.17166383984642697,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 13,
+    "mean_population_accuracy": 93.73649520874024,
+    "std_population_accuracy": 0.696827339522372,
+    "std_sample_population_accuracy": 0.7345205095887211,
+    "se_population_accuracy": 0.23227577984079062,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 14,
+    "mean_population_accuracy": 93.80103302001953,
+    "std_population_accuracy": 0.5265903121192711,
+    "std_sample_population_accuracy": 0.555074926691955,
+    "se_population_accuracy": 0.175530104039757,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 15,
+    "mean_population_accuracy": 93.92049179077148,
+    "std_population_accuracy": 0.4590681432445517,
+    "std_sample_population_accuracy": 0.4839003112924078,
+    "se_population_accuracy": 0.15302271441485055,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 16,
+    "mean_population_accuracy": 94.1857536315918,
+    "std_population_accuracy": 0.47219464773117925,
+    "std_sample_population_accuracy": 0.49773686192379524,
+    "se_population_accuracy": 0.15739821591039307,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 17,
+    "mean_population_accuracy": 94.14266433715821,
+    "std_population_accuracy": 0.4303198696894838,
+    "std_sample_population_accuracy": 0.4535969702152076,
+    "se_population_accuracy": 0.14343995656316127,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 18,
+    "mean_population_accuracy": 94.39204788208008,
+    "std_population_accuracy": 0.2625052763649963,
+    "std_sample_population_accuracy": 0.27670485704178477,
+    "se_population_accuracy": 0.08750175878833209,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 19,
+    "mean_population_accuracy": 94.3129150390625,
+    "std_population_accuracy": 0.33257316701186723,
+    "std_sample_population_accuracy": 0.3505628988043584,
+    "se_population_accuracy": 0.11085772233728908,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 20,
+    "mean_population_accuracy": 94.46689071655274,
+    "std_population_accuracy": 0.4965511983989207,
+    "std_sample_population_accuracy": 0.5234109206089146,
+    "se_population_accuracy": 0.16551706613297357,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 21,
+    "mean_population_accuracy": 94.55635528564453,
+    "std_population_accuracy": 0.44263448556517965,
+    "std_sample_population_accuracy": 0.46657771510763024,
+    "se_population_accuracy": 0.14754482852172657,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 22,
+    "mean_population_accuracy": 94.54600524902344,
+    "std_population_accuracy": 0.343084915838221,
+    "std_sample_population_accuracy": 0.36164325496531824,
+    "se_population_accuracy": 0.11436163861274032,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 23,
+    "mean_population_accuracy": 94.6550910949707,
+    "std_population_accuracy": 0.4447225273264273,
+    "std_sample_population_accuracy": 0.46877870437932756,
+    "se_population_accuracy": 0.14824084244214242,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 24,
+    "mean_population_accuracy": 94.60689849853516,
+    "std_population_accuracy": 0.45827607292063016,
+    "std_sample_population_accuracy": 0.4830653958622013,
+    "se_population_accuracy": 0.1527586909735434,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 25,
+    "mean_population_accuracy": 94.52024841308594,
+    "std_population_accuracy": 0.6408087903080966,
+    "std_sample_population_accuracy": 0.6754717740102724,
+    "se_population_accuracy": 0.21360293010269882,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 26,
+    "mean_population_accuracy": 94.72493972778321,
+    "std_population_accuracy": 0.24475168891693674,
+    "std_sample_population_accuracy": 0.2579909327168366,
+    "se_population_accuracy": 0.08158389630564558,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 27,
+    "mean_population_accuracy": 94.81376724243164,
+    "std_population_accuracy": 0.14789937841109016,
+    "std_sample_population_accuracy": 0.15589963343405996,
+    "se_population_accuracy": 0.049299792803696715,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 28,
+    "mean_population_accuracy": 94.79059753417968,
+    "std_population_accuracy": 0.34750823842284306,
+    "std_sample_population_accuracy": 0.3663058463630078,
+    "se_population_accuracy": 0.115836079474281,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 29,
+    "mean_population_accuracy": 94.79110336303711,
+    "std_population_accuracy": 0.2752463494466916,
+    "std_sample_population_accuracy": 0.29013512729939067,
+    "se_population_accuracy": 0.0917487831488972,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 30,
+    "mean_population_accuracy": 94.83427352905274,
+    "std_population_accuracy": 0.2648125920951899,
+    "std_sample_population_accuracy": 0.2791369813713002,
+    "se_population_accuracy": 0.08827086403172997,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 31,
+    "mean_population_accuracy": 94.96251983642578,
+    "std_population_accuracy": 0.24895607147434612,
+    "std_sample_population_accuracy": 0.26242274106220237,
+    "se_population_accuracy": 0.08298535715811538,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 32,
+    "mean_population_accuracy": 94.89571838378906,
+    "std_population_accuracy": 0.14110066975432384,
+    "std_sample_population_accuracy": 0.14873316526629812,
+    "se_population_accuracy": 0.04703355658477461,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 33,
+    "mean_population_accuracy": 94.80527572631836,
+    "std_population_accuracy": 0.32384950872301904,
+    "std_sample_population_accuracy": 0.3413673555637693,
+    "se_population_accuracy": 0.10794983624100635,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 34,
+    "mean_population_accuracy": 94.92010116577148,
+    "std_population_accuracy": 0.29335731121267,
+    "std_sample_population_accuracy": 0.3092257572316297,
+    "se_population_accuracy": 0.09778577040422333,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 35,
+    "mean_population_accuracy": 94.9550392150879,
+    "std_population_accuracy": 0.23306288503637845,
+    "std_sample_population_accuracy": 0.24566985158831028,
+    "se_population_accuracy": 0.07768762834545948,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 36,
+    "mean_population_accuracy": 95.00178833007813,
+    "std_population_accuracy": 0.19316592814650574,
+    "std_sample_population_accuracy": 0.20361476642779516,
+    "se_population_accuracy": 0.06438864271550192,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 37,
+    "mean_population_accuracy": 95.01527099609375,
+    "std_population_accuracy": 0.19942884741821132,
+    "std_sample_population_accuracy": 0.21021646299457936,
+    "se_population_accuracy": 0.06647628247273711,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 38,
+    "mean_population_accuracy": 94.99550933837891,
+    "std_population_accuracy": 0.1278748283260392,
+    "std_sample_population_accuracy": 0.13479190430443347,
+    "se_population_accuracy": 0.0426249427753464,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 39,
+    "mean_population_accuracy": 95.07981414794922,
+    "std_population_accuracy": 0.16531316959570222,
+    "std_sample_population_accuracy": 0.17425538104803856,
+    "se_population_accuracy": 0.05510438986523407,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 40,
+    "mean_population_accuracy": 95.05510101318359,
+    "std_population_accuracy": 0.14446270579495996,
+    "std_sample_population_accuracy": 0.15227706242095962,
+    "se_population_accuracy": 0.04815423526498664,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 41,
+    "mean_population_accuracy": 94.99712448120117,
+    "std_population_accuracy": 0.12400877668101148,
+    "std_sample_population_accuracy": 0.1307167280543907,
+    "se_population_accuracy": 0.04133625889367049,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 42,
+    "mean_population_accuracy": 95.03733749389649,
+    "std_population_accuracy": 0.13152804345112296,
+    "std_sample_population_accuracy": 0.13864273116371403,
+    "se_population_accuracy": 0.043842681150374326,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 43,
+    "mean_population_accuracy": 95.07473220825196,
+    "std_population_accuracy": 0.14132939210875461,
+    "std_sample_population_accuracy": 0.1489742597968973,
+    "se_population_accuracy": 0.047109797369584865,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 44,
+    "mean_population_accuracy": 95.12483215332031,
+    "std_population_accuracy": 0.20483915412821627,
+    "std_sample_population_accuracy": 0.2159194270091486,
+    "se_population_accuracy": 0.06827971804273876,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 45,
+    "mean_population_accuracy": 95.10822677612305,
+    "std_population_accuracy": 0.19194369181578974,
+    "std_sample_population_accuracy": 0.20232641621310538,
+    "se_population_accuracy": 0.06398123060526324,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 46,
+    "mean_population_accuracy": 95.14087219238282,
+    "std_population_accuracy": 0.1822388945584274,
+    "std_sample_population_accuracy": 0.1920966616919653,
+    "se_population_accuracy": 0.060746298186142474,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 47,
+    "mean_population_accuracy": 95.17205429077148,
+    "std_population_accuracy": 0.2710663491168878,
+    "std_sample_population_accuracy": 0.28572902007857903,
+    "se_population_accuracy": 0.09035544970562927,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 48,
+    "mean_population_accuracy": 95.25718460083007,
+    "std_population_accuracy": 0.21921882729065265,
+    "std_sample_population_accuracy": 0.23107693340984703,
+    "se_population_accuracy": 0.07307294243021754,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 49,
+    "mean_population_accuracy": 95.37140579223633,
+    "std_population_accuracy": 0.1947411747224181,
+    "std_sample_population_accuracy": 0.2052752221132166,
+    "se_population_accuracy": 0.0649137249074727,
+    "runs": 10
+  },
+  {
+    "project": "NAS_Bench_201",
+    "step": 50,
+    "mean_population_accuracy": 95.77137298583985,
+    "std_population_accuracy": 0.24936823622751242,
+    "std_sample_population_accuracy": 0.26285720085928455,
+    "se_population_accuracy": 0.08312274540917079,
+    "runs": 10
+  }
+]

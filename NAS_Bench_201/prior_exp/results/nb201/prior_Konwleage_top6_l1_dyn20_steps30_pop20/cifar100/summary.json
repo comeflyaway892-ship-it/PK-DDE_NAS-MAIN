@@ -1,0 +1,13 @@
+{
+  "dataset": "cifar100",
+  "steps": 30,
+  "population": 20,
+  "topk": 6,
+  "lumda": 1.0,
+  "dynamic_steps": 20,
+  "cache_prior": null,
+  "runs": 100,
+  "mean": 73.51333326009113,
+  "std_sample": 1.4282446375932695e-14,
+  "std_population": 1.4210854715202004e-14
+}
